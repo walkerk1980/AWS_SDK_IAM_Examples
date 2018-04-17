@@ -17,7 +17,7 @@ public class PolyMorphism {
 		return c;
 	}
   
-  //This static method takes three integers as args and is named add
+	//This static method takes three integers as args and is named add
 	//it sums the ints and returns the result as an int
   
 	static int add(int a, int b, int c) {
@@ -37,8 +37,9 @@ public class PolyMorphism {
 	//java compiler knows which definition of the 
 	//add method() to use based on the number and
 	//type (int or string) of arguments that are passed.
+	//This combination of args is known as the method's signature.
 	//As you can see in the methods the + sign operator works
 	//differently depending on the type of variables it is
 	//used on. This is what is known as operator overloading
-	//which is also an example of polymorphism
+	//which is also an example of polymorphism.
 }
