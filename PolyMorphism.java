@@ -2,10 +2,11 @@ package com.amazon.oop.example;
 
 public class PolyMorphism {	
 	
-	public static void main(String[] z) {
+	public static void main(String[] args) {
+		
 		//example of polymorphism
-    
 		System.out.println(add(1, 1));
+		System.out.println(add(1, 1, 1));
 		System.out.println(add("one ", "two"));
 	}
 	
